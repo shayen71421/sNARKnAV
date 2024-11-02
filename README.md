@@ -11,19 +11,19 @@
 
 ## 📖 Project Description
 
-*SnarkNav* is the ultimate anti-navigation app that roasts you every step of the way! Enter a destination, and SnarkNav will guide you there with sarcastic, Gordon Ramsay-inspired directions, poking fun at every wrong turn you make. It calculates an absurdly long, winding route, giving you humorous, step-by-step instructions. Warning: This is not your average GPS!
+*sNARKnAV* is the ultimate anti-navigation app that roasts you every step of the way! Enter a destination, and sNARKnAv will guide you there with sarcastic, Gordon Ramsay-inspired directions, poking fun at every wrong turn you make. It calculates an absurdly long, winding route, giving you humorous, step-by-step instructions. Warning: This is not your average GPS!
 
 ---
 
 ## 🚫 The Problem (That Doesn't Exist)
 
-Ever feel like GPS apps are too straightforward and helpful? What if you crave a navigation experience that’s more roast than route? If your inner navigator longs for sarcasm, SnarkNav has you covered.
+Ever feel like GPS apps are too straightforward and helpful? What if you crave a navigation experience that’s more roast than route? If your inner navigator longs for sarcasm, sNARKnAV has you covered.
 
 ---
 
 ## 🧩 The Solution (That Nobody Asked For)
 
-SnarkNav provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque tone to make sure every wrong turn is met with legendary British sarcasm amd insults. With SnarkNav, you’ll never be lonely on a road trip again—even if you’re lost!
+sNARKnAV provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque tone to make sure every wrong turn is met with legendary British sarcasm amd insults. With SnarkNav, you’ll never be lonely on a road trip again—even if you’re lost!
 
 ---
 
@@ -35,10 +35,8 @@ SnarkNav provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque t
 - **Languages:** JavaScript, HTML, CSS
 - **Frameworks:** Simple HTML5/JS for web compatibility
 - **Libraries:** Web Speech API for audio; Geolocation API for location tracking
-- **Tools:** Visual Studio Code, Git, GitHub Pages for hosting
+- **Tools:** Visual Studio Code, Git, GitHub Pages for hosting, ChatGPT for minor code debugging and grammar correction
 
-#### For Hardware:
-- N/A
 
 ---
 
