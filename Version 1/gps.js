@@ -5,7 +5,7 @@ const steps = [];
 const directionDisplay = document.getElementById("direction-display");
 const nextStepButton = document.getElementById("nextStepButton");
 const startJourneyButton = document.querySelector("button[onclick='startJourney()']");
-let speaking = false; // Flag to indicate if a message is currently being spoken
+let speaking = false;
 
 function initLocation() {
     if (navigator.geolocation) {
@@ -47,24 +47,24 @@ function startJourney() {
     if (currentStepIndex === 0) {
         calculateSteps();
         navigator.geolocation.watchPosition(updateUserPosition, showError);
-        nextStepButton.style.display = "inline-block"; // Show the button to get the next instruction
+        nextStepButton.style.display = "inline-block";
     } else {
-        resetJourney(); // Reset for a new journey
+        resetJourney();
     }
 }
 
 function resetJourney() {
-    currentStepIndex = 0; // Reset the step index
-    steps.length = 0; // Clear the steps array
-    directionDisplay.innerHTML = "Press Start to Begin Your Journey"; // Reset display text
-    startJourneyButton.innerText = "Start a New Journey"; // Change button text
-    nextStepButton.style.display = "none"; // Hide the next step button
-    nextStepButton.disabled = false; // Enable button for a new journey
+    currentStepIndex = 0;
+    steps.length = 0;
+    directionDisplay.innerHTML = "Press Start to Begin Your Journey";
+    startJourneyButton.innerText = "Start a New Journey";
+    nextStepButton.style.display = "none";
+    nextStepButton.disabled = false;
 }
 
 function calculateSteps() {
     steps.push(...generateRandomSteps(userPosition, destinationPosition, 10));
-    showNextStep(); // Show the first step immediately
+    showNextStep();
 }
 
 function generateRandomSteps(start, end, numSteps) {
@@ -86,7 +86,7 @@ function showNextStep() {
     if (currentStepIndex >= steps.length) {
         directionDisplay.innerHTML = "You have arrived! End of this absurd journey!";
         speak("You have arrived! End of this absurd journey!");
-        nextStepButton.style.display = "none"; // Hide button when the journey is complete
+        nextStepButton.style.display = "none";
         return;
     }
 
@@ -109,7 +109,7 @@ function checkDirection() {
     if (currentStepIndex > 0) {
         const currentStep = steps[currentStepIndex - 1];
 
-        // Implement your own logic to determine the correct direction
+        
         const isCorrectDirection = checkDirectionLogic(currentStep.instructions);
 
         if (!isCorrectDirection) {
@@ -125,9 +125,9 @@ function checkDirection() {
             const randomMessage = wrongTurnMessages[Math.floor(Math.random() * wrongTurnMessages.length)];
             directionDisplay.innerHTML += `<br>${randomMessage}`;
 
-            // Speak the wrong turn message first
+            
             speak(randomMessage, () => {
-                // After the first message finishes, speak a random corrective message
+                
                 const correctiveMessages = [
                     "Now, turn around and try again! It's not rocket science!",
                     "Seriously? It's like you're trying to find your way in a funhouse!",
@@ -141,40 +141,39 @@ function checkDirection() {
                 const randomCorrectiveMessage = correctiveMessages[Math.floor(Math.random() * correctiveMessages.length)];
                 directionDisplay.innerHTML += `<br>${randomCorrectiveMessage}`;
                 speak(randomCorrectiveMessage, () => {
-                    // After the corrective message, show the next step
+                    
                     showNextStep();
-                }); // Speak the corrective message
+                });
             });
         } else {
-            showNextStep(); // Move to the next instruction if the user was correct
+            showNextStep();
         }
     }
 }
 
 function checkDirectionLogic(instruction) {
-    // Simple check to see if the user is moving in a certain way
-    // This is a placeholder logic; you can enhance this based on actual movement data
-    return Math.random() > 0.5; // Simulate user movement check (50% chance)
+    
+    return Math.random() > 0.5;
 }
 
 function speak(text, callback) {
     const speech = new SpeechSynthesisUtterance(text);
     speech.volume = 1;
-    speech.rate = 0.9;  // Slower rate for better sync with text
+    speech.rate = 0.9;
     speech.pitch = 1;
     speech.onend = () => {
-        speaking = false; // Reset speaking flag when done
-        nextStepButton.disabled = false; // Enable the button after speaking
-        if (callback) callback(); // Execute the callback if provided
+        speaking = false;
+        nextStepButton.disabled = false;
+        if (callback) callback();
     };
 
-    // Check if already speaking
+    
     if (speaking) {
-        // Stop current speech if needed
+        
         window.speechSynthesis.cancel();
     }
-    speaking = true; // Set speaking flag
-    nextStepButton.disabled = true; // Disable the button while speaking
+    speaking = true;
+    nextStepButton.disabled = true;
     window.speechSynthesis.speak(speech);
 }
 
@@ -202,5 +201,4 @@ function getRandomDistance() {
     return `${distance} ${unit}`;
 }
 
-// Connect the button click to checkDirection
 nextStepButton.addEventListener('click', checkDirection);
