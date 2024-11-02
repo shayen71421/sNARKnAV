@@ -93,7 +93,6 @@ function showNextStep() {
     const currentStep = steps[currentStepIndex];
     directionDisplay.innerHTML = currentStep.instructions;
 
-    // Speak the instruction
     speak(currentStep.instructions);
     currentStepIndex++;
 }
