@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sNARKnAV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>sNARKnAV</h1>
+        
+        <div id="location-inputs">
+            <label>From:</label>
+            <select id="from-choice" onchange="toggleInput('from')">
+                <option value="current">Current Location</option>
+                <option value="coordinates">Enter Coordinates</option>
+            </select>
+            <input type="text" id="from-input" placeholder="Enter coordinates" hidden>
+
+            <label>To:</label>
+            <select id="to-choice" onchange="toggleInput('to')">
+                <option value="current">Current Location</option>
+                <option value="coordinates">Enter Coordinates</option>
+            </select>
+            <input type="text" id="to-input" placeholder="Enter coordinates" hidden>
+        </div>
+
+        <button onclick="startJourney()">Start Journey</button>
+        <button id="nextStepButton" style="display:none;">I did what you told me!</button>
+        <div id="direction-display">Press Start to Begin Your Journey</div>
+    </div>
+    <script src="gps.js"></script>
+</body>
+</html>
