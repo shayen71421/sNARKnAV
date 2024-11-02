@@ -1,6 +1,6 @@
 # sNARKnAV 🚗💥
 
-### Team: Men in Black
+### Team Name: Men in Black
 
 #### Team Members
 - *Team Lead:* Shayen Thomas - Sahrdaya College of Engineering and Technology (Autonomous)
@@ -32,10 +32,13 @@ SnarkNav provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque t
 ### Technologies/Components Used
 
 #### For Software:
-- *Languages:* JavaScript, HTML, CSS
-- *Frameworks:* None (simple HTML5/JS for web compatibility)
-- *Libraries:* Web Speech API for audio; Geolocation API for location tracking
-- *Tools:* Visual Studio Code, Git, GitHub Pages for hosting
+- **Languages:** JavaScript, HTML, CSS
+- **Frameworks:** None (simple HTML5/JS for web compatibility)
+- **Libraries:** Web Speech API for audio; Geolocation API for location tracking
+- **Tools:** Visual Studio Code, Git, GitHub Pages for hosting
+
+#### For Hardware:
+- N/A
 
 ---
 
@@ -48,7 +51,14 @@ To run sNARKnAV locally:
 ```bash
 git clone https://github.com/yourusername/sNARKnAV.git
 cd sNARKnAV
-# Simply open index.html in your preferred browser to start the experience.
+```
 # Run
-Simply open index.html in your preferred browser to start the experience.
-#
+# Simply open index.html in your preferred browser to start the experience.
+
+
+---
+
+
+## 📸 Project Documentation
+
+#Screenshots
