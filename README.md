@@ -89,7 +89,7 @@ This is what happens when you reach the end of your journey.A special surprise a
 
 ## 📹 Project Demo
 
-*The site is hosted on the link :*https://shayen71421.github.io/sNARKnAV/
+*The site is hosted on the link :* https://shayen71421.github.io/sNARKnAV/
 
 ## 🧑‍🤝‍🧑 Team Contributions
 
