@@ -67,7 +67,20 @@ cd sNARKnAV
 
 Home Page
 
+*No.2*
+![WhatsApp Image 2024-11-03 at 00 39 57_44eb58d8](https://github.com/user-attachments/assets/b2b69fff-4704-4189-bd56-662284dd94ac)
 
+This is what happens when you give wrong coordinates as input
+
+*No.3*
+![WhatsApp Image 2024-11-03 at 00 43 29_efdcfb38](https://github.com/user-attachments/assets/66ee49b9-a9af-4f82-a48f-78dc9381c8da)
+
+This is what happens when you give existing coordinates as input
+
+*No.4*
+![WhatsApp Image 2024-11-03 at 00 44 36_cc513e96](https://github.com/user-attachments/assets/38f00ca8-e211-4422-8984-8e6f72662798)
+
+Click "Next Step" for moving forward
 
 
 ## 📹 Project Demo
