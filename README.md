@@ -61,9 +61,11 @@ cd sNARKnAV
 
 ## 📸 Project Documentation
 
-# Screenshots
+### Screenshots
+*No.1*
+![WhatsApp Image 2024-11-03 at 00 38 41_7632b4a6](https://github.com/user-attachments/assets/f8ea648b-160b-45b4-8903-0586b1ff8f31)
 
-
+Home Page
 
 
 
