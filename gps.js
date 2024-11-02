@@ -152,7 +152,7 @@ function showNextStep() {
                         const rewardMessage = "Here is your reward!";
                         speak(rewardMessage, () => {
                             setTimeout(() => {
-                                window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                                window.location.href = "https://www.youtube.com/watch?v=mx86-rTclzA";
                             }, 2000);
                         });
                     });
