@@ -52,8 +52,8 @@ To run sNARKnAV locally:
 git clone https://github.com/yourusername/sNARKnAV.git
 cd sNARKnAV
 ```
-# Run
-# Simply open index.html in your preferred browser to start the experience.
+### Run
+*Simply open index.html in your preferred browser to start the experience.*
 
 
 ---
@@ -61,4 +61,4 @@ cd sNARKnAV
 
 ## 📸 Project Documentation
 
-#Screenshots
+# Screenshots
