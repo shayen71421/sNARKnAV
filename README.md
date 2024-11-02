@@ -1,11 +1,11 @@
-# SnarkNav 🚗💥
+# sNARKnAV 🚗💥
 
 ### Team: Men in Black
 
 #### Team Members
 - *Team Lead:* Shayen Thomas - Sahrdaya College of Engineering and Technology (Autonomous)
-- *Member 2:* [Name] - Sahrdaya College of Engineering and Technology (Autonomous)
-- *Member 3:* [Name] - Sahrdaya College of Engineering and Technology (Autonomous)
+- *Member 2:* Harikrishna O R - Sahrdaya College of Engineering and Technology (Autonomous)
+- *Member 3:* Sharon Kariyattil - Sahrdaya College of Engineering and Technology (Autonomous)
 
 ---
 
@@ -44,10 +44,11 @@ SnarkNav provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque t
 ### For Software:
 
 #### Installation
-To run SnarkNav locally:
+To run sNARKnAV locally:
 ```bash
-git clone https://github.com/yourusername/SnarkNav.git
-cd SnarkNav
+git clone https://github.com/yourusername/sNARKnAV.git
+cd sNARKnAV
 # Simply open index.html in your preferred browser to start the experience.
 # Run
 Simply open index.html in your preferred browser to start the experience.
+#
