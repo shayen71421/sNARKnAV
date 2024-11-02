@@ -23,7 +23,7 @@ Ever feel like GPS apps are too straightforward and helpful? What if you crave a
 
 ## 🧩 The Solution (That Nobody Asked For)
 
-SnarkNav provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque tone to make sure every wrong turn is met with legendary British sarcasm. With SnarkNav, you’ll never be lonely on a road trip again—even if you’re lost!
+SnarkNav provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque tone to make sure every wrong turn is met with legendary British sarcasm amd insults. With SnarkNav, you’ll never be lonely on a road trip again—even if you’re lost!
 
 ---
 
@@ -33,7 +33,7 @@ SnarkNav provides turn-by-turn instructions in a roasting, Gordon Ramsay-esque t
 
 #### For Software:
 - **Languages:** JavaScript, HTML, CSS
-- **Frameworks:** None (simple HTML5/JS for web compatibility)
+- **Frameworks:** Simple HTML5/JS for web compatibility
 - **Libraries:** Web Speech API for audio; Geolocation API for location tracking
 - **Tools:** Visual Studio Code, Git, GitHub Pages for hosting
 
