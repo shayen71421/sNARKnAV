@@ -59,8 +59,10 @@ cd sNARKnAV
 
 ## 📸 Project Documentation
 
+
 ### Video
-https://github.com/user-attachments/assets/8d5ca5a4-6239-4305-b061-6a45e002f844
+
+https://github.com/user-attachments/assets/442ccbab-3540-4d5b-ab5e-58a4ebd87935
 
 Shows basic workings,The outputs may vary according to your location and Luck
 
