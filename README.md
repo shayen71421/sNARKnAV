@@ -88,7 +88,9 @@ Click "Next Step" for moving forward
 *No.5*
 ![WhatsApp Image 2024-11-03 at 01 03 05_4483c515](https://github.com/user-attachments/assets/c2a378f9-d686-4563-bc28-5a12f89a4c61)
 
-This is what happens when you reach the end of your journey.A special surprise awaits you.Find it if you can
+This is what happens when you reach the end of your journey.
+
+*A special surprise awaits you.Find it if you can*
 
 ## 📹 Project Demo
 
