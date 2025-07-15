@@ -103,3 +103,4 @@ This is what happens when you reach the end of your journey.
 - *Shayen Thomas* - Main coding and overall project architecture.
 - *Harikrishna O R* - Sub coding, managing insult generation, and testing functionalities. 
 - *Sharon Kariyattil* - Creation of roasting insults and user interaction feedback.
+  
